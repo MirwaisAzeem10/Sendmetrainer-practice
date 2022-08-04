@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Blog from "./components/Blog";
 import Filter from "./components/Filter";
 import Map from "./components/Map";
+import Profile from "./components/Profile";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,7 +16,8 @@ root.render(
     {/* <Home /> */}
     {/* <Blog /> */}
     {/* <Map /> */}
-    <Filter />
+    {/* <Filter /> */}
+    <Profile />
   </React.StrictMode>
 );
 

@@ -5,7 +5,7 @@ function Filter() {
     <>
       <div className="">
         <div class="grid grid-cols-[300px_1fr] h-screen relative">
-          <div className="!border border-solid !border-gray-300 show-hide-filter-side-bar-backdrop flex h-full z-[1] px-6 pt-10 pb-10">
+          <div className="!border border-solid !border-gray-300 show-hide-filter-side-bar-backdrop flex h-full z-[1] px-10 pt-10 pb-10">
             <div className="flex flex-col gap-4 w-full">
               <div className="flex gap-2 items-center">
                 <img src="/images/Mask Group 344.svg" alt="" />
@@ -116,142 +116,43 @@ function Filter() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center pb-10 pt-10">
-            <div className="flex flex-col justify-center items-center pb-10">
-              <img
-                className="mb-3 w-[12rem] h-[12rem] rounded-full shadow-lg"
-                src="/images/madison-lavern-4gcqRf3-f2I-unsplash.png"
-                alt="Bonnie image"
-              />
-              <div className="flex justify-between gap-2">
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
-                  Nadia
-                </h5>
-                <img src="/images/Mask Group 315.svg" alt="" />
-              </div>
-              <div className="flex justify-center items-center gap-2 mt-2">
-                <img src="/images/Mask Group 316.svg" alt="" />
-                <img src="/images/Mask Group 316.svg" alt="" />
-                <img src="/images/Mask Group 316.svg" alt="" />
-                <img src="/images/Mask Group 316.svg" alt="" />
-                <img src="/images/Mask Group 316.svg" alt="" />
-              </div>
-              <div className="flex justify-between gap-2">
-                <img src="/images/Mask Group 321.svg" alt="" />
-                <span className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                  Palm Springs, CA
-                </span>
-              </div>
-
-              <div className="flex justify-center text-center mt-4 flex-wrap w-[15rem] gap-4">
-                <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1  rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
-                  Yoga
-                </p>
-                <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1  rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
-                  Trainer
-                </p>
-                <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1 rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
-                  Golf
-                </p>
-              </div>
-
-              <div className="max-w-xs mt-4">
-                <p className="text-start font-poppins">
-                  Donec vitae sapien ut libero venenatis faucibus. Pellentesque
-                  egestas, neque sit
-                </p>
-                <div className="flex flex-row items-center gap-2 mt-5">
-                  <button className="w-[20rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] text-[#06BED8]">
-                    Packages & Prices
-                  </button>
-                  <button className="w-[20rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] bg-[#06BED8] text-[#fff]">
-                    Hire Trainer
-                  </button>
-                  <img src="/images/Mask Group 349.svg" alt="chat" />
-                  <p className="text-[#06BED8]">chat</p>
-                </div>
-              </div>
-            </div>
-
-            <img
-              className="mb-3 w-[12rem] h-[12rem] rounded-full shadow-lg"
-              src="/images/wells-chan-H-vAxuWxmi8-unsplash.png"
-              alt="Bonnie image"
-            />
-            <div className="flex justify-between gap-2">
-              <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
-                Sergio
-              </h5>
-              <img src="/images/Mask Group 315.svg" alt="" />
-            </div>
-            <div className="flex justify-center items-center gap-2 mt-2">
-              <img src="/images/Mask Group 316.svg" alt="" />
-              <img src="/images/Mask Group 316.svg" alt="" />
-              <img src="/images/Mask Group 316.svg" alt="" />
-              <img src="/images/Mask Group 316.svg" alt="" />
-              <img src="/images/Mask Group 316.svg" alt="" />
-            </div>
-            <div className="flex justify-between gap-2">
-              <img src="/images/Mask Group 321.svg" alt="" />
-              <span className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                Palm Springs, CA
-              </span>
-            </div>
-
-            <div className="flex justify-center text-center mt-4 flex-wrap w-[15rem] gap-4">
-              <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1  rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
-                Yoga
-              </p>
-              <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1  rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
-                Trainer
-              </p>
-              <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1 rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
-                Golf
-              </p>
-            </div>
-
-            <div className="max-w-xs mt-4">
-              <p className="text-start font-poppins">
-                Donec vitae sapien ut libero venenatis faucibus. Pellentesque
-                egestas, neque sit
-              </p>
-              <div className="flex flex-row items-center gap-2 mt-5">
-                <button className="w-[20rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] text-[#06BED8]">
-                  Packages & Prices
-                </button>
-                <button className="w-[20rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] bg-[#06BED8] text-[#fff]">
-                  Hire Trainer
-                </button>
-                <img src="/images/Mask Group 349.svg" alt="chat" />
-                <p className="text-[#06BED8]">chat</p>
-              </div>
-              <div className="flex flex-col justify-center items-center pb-10 pt-10">
+          <div>
+            <div className="flex  flex-col-2 justify-start items-start pb-10 pt-10 px-10">
+              <div>
                 <img
-                  className="mb-3 w-[12rem] h-[12rem] rounded-full shadow-lg"
-                  src="/images/spencer-davis-0ShTs8iPY28-unsplash.png"
+                  className="mb-3 w-[16rem] rounded-full shadow-lg"
+                  src="/images/madison-lavern-4gcqRf3-f2I-unsplash.png"
                   alt="Bonnie image"
                 />
-                <div className="flex justify-between gap-2">
+              </div>
+              <div className="flex  flex-col px-6">
+                <div className="flex justify-start gap-2">
                   <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
-                    Courtney
+                    Nadia
                   </h5>
                   <img src="/images/Mask Group 315.svg" alt="" />
                 </div>
-                <div className="flex justify-center items-center gap-2 mt-2">
+                <div className="flex justify-start items-start gap-4 mt-2">
                   <img src="/images/Mask Group 316.svg" alt="" />
                   <img src="/images/Mask Group 316.svg" alt="" />
                   <img src="/images/Mask Group 316.svg" alt="" />
                   <img src="/images/Mask Group 316.svg" alt="" />
                   <img src="/images/Mask Group 316.svg" alt="" />
                 </div>
-                <div className="flex justify-between gap-2">
+
+                <div className="flex justify-start items-center gap-2 mt-2">
                   <img src="/images/Mask Group 321.svg" alt="" />
                   <span className="text-sm text-gray-500 dark:text-gray-400 mt-2">
                     Palm Springs, CA
                   </span>
                 </div>
-
-                <div className="flex justify-center text-center mt-4 flex-wrap w-[15rem] gap-4">
+                <div className="flex justify-start items-center gap-2 mt-2">
+                  <img src="/images/Mask Group 348.svg" alt="" />
+                  <span className="text-[20px] text-[#171717] font-medium font-poppins flex-1 capitalize">
+                    Categories
+                  </span>
+                </div>
+                <div className="flex justify-start text-center mt-4 flex-wrap w-[15rem] gap-4">
                   <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1  rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
                     Yoga
                   </p>
@@ -262,17 +163,159 @@ function Filter() {
                     Golf
                   </p>
                 </div>
+                <div className="flex justify-center items-center mt-4 ">
+                  <p className="">
+                    Fusce vel dui. Pellentesque egestas, neque sit amet
+                    convallis pulvinar, justo nulla eleifend augue, ac auctor
+                    orci leo non est. Nunc nec neque. Aenean massa. Sed a
+                    libero. <span className="text-[#06BED8]">Read More</span>
+                  </p>
+                </div>
 
                 <div className="max-w-xs mt-4">
-                  <p className="text-start font-poppins">
-                    Donec vitae sapien ut libero venenatis faucibus.
-                    Pellentesque egestas, neque sit
-                  </p>
                   <div className="flex flex-row items-center gap-2 mt-5">
-                    <button className="w-[20rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] text-[#06BED8]">
+                    <button className="w-[22rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] text-[#06BED8]">
                       Packages & Prices
                     </button>
-                    <button className="w-[20rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] bg-[#06BED8] text-[#fff]">
+                    <button className="w-[12rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] bg-[#06BED8] text-[#fff]">
+                      Hire Trainer
+                    </button>
+                    <img src="/images/Mask Group 349.svg" alt="chat" />
+                    <p className="text-[#06BED8]">chat</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex  flex-col-2 justify-start items-start pb-10 pt-10 px-10">
+              <div>
+                <img
+                  className="mb-3 w-[16rem] rounded-full shadow-lg"
+                  src="/images/wells-chan-H-vAxuWxmi8-unsplash.png"
+                  alt="Bonnie image"
+                />
+              </div>
+              <div className="flex  flex-col px-6">
+                <div className="flex justify-start gap-2">
+                  <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                    Sergio
+                  </h5>
+                  <img src="/images/Mask Group 315.svg" alt="" />
+                </div>
+                <div className="flex justify-start items-start gap-4 mt-2">
+                  <img src="/images/Mask Group 316.svg" alt="" />
+                  <img src="/images/Mask Group 316.svg" alt="" />
+                  <img src="/images/Mask Group 316.svg" alt="" />
+                  <img src="/images/Mask Group 316.svg" alt="" />
+                  <img src="/images/Mask Group 316.svg" alt="" />
+                </div>
+
+                <div className="flex justify-start items-center gap-2 mt-2">
+                  <img src="/images/Mask Group 321.svg" alt="" />
+                  <span className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+                    Palm Springs, CA
+                  </span>
+                </div>
+                <div className="flex justify-start items-center gap-2 mt-2">
+                  <img src="/images/Mask Group 348.svg" alt="" />
+                  <span className="text-[20px] text-[#171717] font-medium font-poppins flex-1 capitalize">
+                    Categories
+                  </span>
+                </div>
+                <div className="flex justify-start text-center mt-4 flex-wrap w-[15rem] gap-4">
+                  <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1  rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
+                    Yoga
+                  </p>
+                  <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1  rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
+                    Trainer
+                  </p>
+                  <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1 rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
+                    Golf
+                  </p>
+                </div>
+                <div className="flex justify-center items-center mt-2 ">
+                  <p className="">
+                    Fusce vel dui. Pellentesque egestas, neque sit amet
+                    convallis pulvinar, justo nulla eleifend augue, ac auctor
+                    orci leo non est. Nunc nec neque. Aenean massa. Sed a
+                    libero. <span className="text-[#06BED8]">Read More</span>
+                  </p>
+                </div>
+
+                <div className="max-w-xs mt-4">
+                  <div className="flex flex-row items-center gap-2 mt-5">
+                    <button className="w-[22rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] text-[#06BED8]">
+                      Packages & Prices
+                    </button>
+                    <button className="w-[12rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] bg-[#06BED8] text-[#fff]">
+                      Hire Trainer
+                    </button>
+                    <img src="/images/Mask Group 349.svg" alt="chat" />
+                    <p className="text-[#06BED8]">chat</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex  flex-col-2 justify-start items-start gap-4 pb-10 pt-10 px-10">
+              <img
+                className="mb-3 w-[16rem] rounded-full shadow-lg"
+                src="/images/spencer-davis-0ShTs8iPY28-unsplash.png"
+                alt="Bonnie image"
+              />
+              <div className="flex  flex-col px-6  ">
+                <div className="flex justify-start gap-2">
+                  <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                    Courtney
+                  </h5>
+                  <img src="/images/Mask Group 315.svg" alt="" />
+                </div>
+                <div className="flex justify-start items-start gap-4 mt-2">
+                  <img src="/images/Mask Group 316.svg" alt="" />
+                  <img src="/images/Mask Group 316.svg" alt="" />
+                  <img src="/images/Mask Group 316.svg" alt="" />
+                  <img src="/images/Mask Group 316.svg" alt="" />
+                  <img src="/images/Mask Group 316.svg" alt="" />
+                </div>
+
+                <div className="flex justify-start items-center gap-2 mt-2">
+                  <img src="/images/Mask Group 321.svg" alt="" />
+                  <span className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+                    Palm Springs, CA
+                  </span>
+                </div>
+                <div className="flex justify-start items-center gap-2 mt-2">
+                  <img src="/images/Mask Group 348.svg" alt="" />
+                  <span className="text-[20px] text-[#171717] font-medium font-poppins flex-1 capitalize">
+                    Categories
+                  </span>
+                </div>
+                <div className="flex justify-start text-center mt-4 flex-wrap w-[15rem] gap-4">
+                  <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1  rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
+                    Yoga
+                  </p>
+                  <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1  rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
+                    Trainer
+                  </p>
+                  <p className="text-center font-bold text-xs font-poppins text-[#06BED8] py-1 rounded bg-[#06BED8] bg-opacity-10 w-[4rem] ">
+                    Golf
+                  </p>
+                </div>
+                <div className="flex justify-center items-center mt-4 ">
+                  <p className="">
+                    Fusce vel dui. Pellentesque egestas, neque sit amet
+                    convallis pulvinar, justo nulla eleifend augue, ac auctor
+                    orci leo non est. Nunc nec neque. Aenean massa. Sed a
+                    libero. <span className="text-[#06BED8]">Read More</span>
+                  </p>
+                </div>
+
+                <div className="max-w-xs mt-4">
+                  <div className="flex flex-row items-center gap-2 mt-5">
+                    <button className="w-[22rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] text-[#06BED8]">
+                      Packages & Prices
+                    </button>
+                    <button className="w-[12rem] h-[2rem] text-sm border-solid rounded border-[#06BED8] bg-[#06BED8] text-[#fff]">
                       Hire Trainer
                     </button>
                     <img src="/images/Mask Group 349.svg" alt="chat" />
