@@ -8,6 +8,7 @@ import Blog from "./components/Blog";
 import Filter from "./components/Filter";
 import Map from "./components/Map";
 import Profile from "./components/Profile";
+import Form from "./components/Form";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     {/* <Blog /> */}
     {/* <Map /> */}
     {/* <Filter /> */}
-    <Profile />
+    {/* <Profile /> */}
+    <Form />
   </React.StrictMode>
 );
 

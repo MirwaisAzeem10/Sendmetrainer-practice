@@ -213,10 +213,10 @@ function Profile() {
 
               <div className="basis-full sm:justify-start lg:basis-4/6 flex items-start gap-4 flex-col justify-center">
                 <div className=" mx-4 w-full h-3  border-[#06BED8] border-solid border-[1px] rounded-md ">
-                  <div className="h-3 bg-[#06BED8] rounded-md w-[70%]"></div>
+                  <div className="h-3 bg-[#06BED8] rounded-md w-[60%]"></div>
                 </div>
                 <div className=" mx-4 w-full h-3  border-[#06BED8] border-solid border-[1px] rounded-md ">
-                  <div className="h-3 bg-[#06BED8] rounded-md w-[50%]"></div>
+                  <div className="h-3 bg-[#06BED8] rounded-md w-[40%]"></div>
                 </div>
                 <div className=" mx-4 w-full h-3  border-[#06BED8] border-solid border-[1px] rounded-md ">
                   <div className="h-3 bg-[#06BED8] rounded-md w-[30%]"></div>
@@ -230,7 +230,7 @@ function Profile() {
               </div>
             </div>
 
-            <div className="flex flex-col-3 flex-wrap gap-4 lg:flex-grow">
+            <div className="flex flex-col-3 gap-4 flex-wrap">
               <div className="flex  flex-col bg-[#BFBFBF4D] rounded-md w-[40%] h-60 px-6">
                 <div className="flex justify-between gap-4 py-4">
                   <p className="text-[#BFBFBF]">M.Awais</p>
