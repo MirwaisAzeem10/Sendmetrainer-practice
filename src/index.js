@@ -9,6 +9,7 @@ import Filter from "./components/Filter";
 import Map from "./components/Map";
 import Profile from "./components/Profile";
 import Form from "./components/Form";
+import Modal from "./components/Modal";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,7 +20,8 @@ root.render(
     {/* <Map /> */}
     {/* <Filter /> */}
     {/* <Profile /> */}
-    <Form />
+    {/* <Form /> */}
+    <Modal />
   </React.StrictMode>
 );
 
