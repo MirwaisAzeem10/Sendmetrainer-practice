@@ -10,6 +10,7 @@ import Map from "./components/Map";
 import Profile from "./components/Profile";
 import Form from "./components/Form";
 import Modal from "./components/Modal";
+import Formthree from "./components/Formthree";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,7 +22,8 @@ root.render(
     {/* <Filter /> */}
     {/* <Profile /> */}
     {/* <Form /> */}
-    <Modal />
+    {/* <Modal /> */}
+    <Formthree />
   </React.StrictMode>
 );
 
