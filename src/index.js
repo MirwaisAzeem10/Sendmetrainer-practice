@@ -11,19 +11,21 @@ import Profile from "./components/Profile";
 import Form from "./components/Form";
 import Modal from "./components/Modal";
 import Formthree from "./components/Formthree";
+import Location from "./components/Location";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Home /> */}
-    {/* <Blog /> */}
+    <Blog />
     {/* <Map /> */}
     {/* <Filter /> */}
     {/* <Profile /> */}
     {/* <Form /> */}
     {/* <Modal /> */}
-    <Formthree />
+    {/* <Formthree /> */}
+    {/* <Location /> */}
   </React.StrictMode>
 );
 
