@@ -12,20 +12,24 @@ import Form from "./components/Form";
 import Modal from "./components/Modal";
 import Formthree from "./components/Formthree";
 import Location from "./components/Location";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Home /> */}
-    <Blog />
+    {/* <Blog /> */}
     {/* <Map /> */}
     {/* <Filter /> */}
     {/* <Profile /> */}
     {/* <Form /> */}
     {/* <Modal /> */}
     {/* <Formthree /> */}
-    {/* <Location /> */}
+    <Location />
+    {/* <Header /> */}
+    {/* <Footer /> */}
   </React.StrictMode>
 );
 
